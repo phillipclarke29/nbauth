@@ -71,12 +71,13 @@ function App() {
       {
         formType === 'signUp' && (
             <div>
+              <h1>Sign Up</h1>
                <input name="username" onChange={onChange} placeholder="email"/>
                <input name="password" type="password" onChange={onChange} placeholder="password"/>
               <button onClick={signUp}>Sign Up</button>
               <button onClick={()=> updateFormState(()=>({
                 ...formState, formType: 'signIn'
-              }))}>Sign In</button>
+              }))}>Go to Sign In</button>
             </div>
           )
       }
@@ -91,13 +92,18 @@ function App() {
       {
           formType === 'signIn' && (
               <div>
+                <h1>Sign In</h1>
                 <input name="username" onChange={onChange} placeholder="email"/>
                 <input name="password" type="password" onChange={onChange} placeholder="password"/>
-                <button onClick={signIn}>Sign In</button>
                 <button onClick={()=> updateFormState(()=>({
                   ...formState, formType: 'signUp'
-                }))}>Sign Up</button>
+                }))}>Go to Sign Up</button>
+                <button
+                    onClick={signIn}
+                    className="submitButton"
+                >Sign In</button>
               </div>
+
           )
       }
       {
