@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nbauth-dev-133338-authRole",
+      "UnauthRoleArn": "arn:aws:iam::841502926761:role/amplify-nbauth-dev-133338-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::841502926761:role/amplify-nbauth-dev-133338-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-nbauth-dev-133338-deployment",
+      "UnauthRoleName": "amplify-nbauth-dev-133338-unauthRole",
+      "StackName": "amplify-nbauth-dev-133338",
+      "StackId": "arn:aws:cloudformation:us-east-1:841502926761:stack/amplify-nbauth-dev-133338/0eb695f0-8f2d-11ec-846e-0e7560343b15",
+      "AmplifyAppId": "d3eorgnwe7p902"
+    },
+    "categories": {
+      "auth": {
+        "nbauth5f059f74": {}
+      }
+    }
+  }
+}
