@@ -104,7 +104,7 @@ function App() {
           formType === 'signedIn' && (
               <div>
               <h1> Welcome to NBFire </h1>
-                <h2>Automate your notebooks</h2>
+                <h2>Automate your notebooks here</h2>
                 <button onClick={
                   ()=> Auth.signOut()
                 }>Sign Out</button>
